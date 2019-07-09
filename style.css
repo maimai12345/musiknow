@@ -78,28 +78,43 @@ header a:hover{
 	font-size: 20px;
 }
 
-#newsletter{
+#newsletter1{
 	padding: 15px;
 	color: #fff;
 	background: linear-gradient(#ec1063, #960083);
 }
 
-#newsletter h1{
+#newsletter1 h1{
 	float: left;
 }
 
-#newsletter form{
+#newsletter1 form{
 	float: right;
 	margin-top: 15px;
 }
 
-#newsletter input[type="lirik"]{
+#newsletter1 input[type="lirik"]{
 	padding: 4px;
 	height: 25px;
 	width: 250px;
 }
 
-#newsletter input[type="lagu"]{
+#newsletter2{
+	padding: 15px;
+	color: #fff;
+	background: linear-gradient(#ec1063, #960083);
+}
+
+#newsletter2 h1{
+	float: left;
+}
+
+#newsletter2 form{
+	float: right;
+	margin-top: 15px;
+}
+
+#newsletter2 input[type="lagu"]{
 	padding: 4px;
 	height: 25px;
 	width: 250px;
@@ -156,8 +171,10 @@ footer{
 	header #branding,
 	header nav,
 	header nav li,
-	#newsletter h1,
-	#newsletter form
+	#newsletter1 h1,
+	#newsletter1 form
+	#newsletter2 h1,
+	#newsletter2 form
 	#boxes .box
 	#boxeslirik .boxlirik
 	{
@@ -179,12 +196,12 @@ footer{
 		width: 100%;
 	}
 	
-	#newsletter input[type="lirik"]{
+	#newsletter1 input[type="lirik"]{
 		margin-bottom: 5px;
 		width: 100%;
 	}
 	
-	#newsletter input[type="lagu"]{
+	#newsletter2 input[type="lagu"]{
 		margin-bottom: 5px;
 		width: 100%;
 	}

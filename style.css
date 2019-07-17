@@ -78,43 +78,42 @@ header a:hover{
 	font-size: 20px;
 }
 
-#newsletter1{
+#newsletterlirik{
 	padding: 15px;
 	color: #fff;
 	background: linear-gradient(#ec1063, #960083);
 }
 
-#newsletter1 h1{
+#newsletterlirik h1{
 	float: left;
 }
 
-#newsletter1 form{
+#newsletterlirik form{
+	float: right;
+	margin-top: 15px;
+}
+#newsletterlagu{
+	padding: 15px;
+	color: #fff;
+	background: linear-gradient(#ec1063, #960083);
+}
+
+#newsletterlagu h1{
+	float: left;
+}
+
+#newsletterlagu form{
 	float: right;
 	margin-top: 15px;
 }
 
-#newsletter1 input[type="lirik"]{
+#newsletterlirik input[type="lirik"]{
 	padding: 4px;
 	height: 25px;
 	width: 250px;
 }
 
-#newsletter2{
-	padding: 15px;
-	color: #fff;
-	background: linear-gradient(#ec1063, #960083);
-}
-
-#newsletter2 h1{
-	float: left;
-}
-
-#newsletter2 form{
-	float: right;
-	margin-top: 15px;
-}
-
-#newsletter2 input[type="lagu"]{
+#newsletterlagu input[type="lagu"]{
 	padding: 4px;
 	height: 25px;
 	width: 250px;
@@ -156,7 +155,7 @@ header a:hover{
 }
 
 #boxeslirik .boxlirik img{
-	width: 200px;
+	width: 400px;
 }
 
 footer{
@@ -164,17 +163,30 @@ footer{
 	margin-top: 20px;
 	color: #fff;
 	background: linear-gradient(#960083, #ec1063);
-	text-align: center;
+	text-align: left;
+}
+#boxescu{
+	margin-top: 1px;
 }
 
+#boxescu .box{
+	float: left;
+	text-align: left;
+	width: 30%;
+	padding: 30px;
+}
+
+#boxescu .box img{
+	width: 300px;
+}
 @media(max-width: 768px){
 	header #branding,
 	header nav,
 	header nav li,
-	#newsletter1 h1,
-	#newsletter1 form
-	#newsletter2 h1,
-	#newsletter2 form
+	#newsletterlirik h1,
+	#newsletterlirik form
+	#newsletterlagu h1,
+	#newsletterlagu form
 	#boxes .box
 	#boxeslirik .boxlirik
 	{
@@ -196,12 +208,12 @@ footer{
 		width: 100%;
 	}
 	
-	#newsletter1 input[type="lirik"]{
+	#newsletterlirik input[type="lirik"]{
 		margin-bottom: 5px;
 		width: 100%;
 	}
 	
-	#newsletter2 input[type="lagu"]{
+	#newsletterlagu input[type="lagu"]{
 		margin-bottom: 5px;
 		width: 100%;
 	}
